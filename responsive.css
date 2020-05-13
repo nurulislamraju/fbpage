@@ -1,0 +1,57 @@
+@media screen and (max-width: 980px){
+
+    .logo-aria{
+        width: 100%;
+        float: none;
+    text-align: center;}
+
+     .login-aria{
+        width: 405px;
+            float: none;
+            margin: 15px auto;
+
+     }
+     .login-aria form {
+                float: none;}
+        .left-aria{
+            width: 100%;
+            float: left;
+        }
+        .right-aria{
+            width: 100%;
+            float: left;
+        }
+        .left-aria p{
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 768px){
+    .login-aria{
+        width: 100%;
+    }
+    .login-aria .email,
+    .login-aria .password,
+    .login-aria .login{
+        float: none;
+        margin-right: 0px;
+    }
+    .login-aria input[type="text"],
+    .login-aria input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .login-aria input[type="text"]{
+        margin-top: 10px;
+    }
+    .birth-date{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .container{
+        width: 80%;
+    }
+}
